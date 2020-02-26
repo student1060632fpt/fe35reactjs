@@ -3,6 +3,7 @@ import Header from './header';
 import Content from './content';
 import Sidebar from './sidebar';
 import Footer from './footer';
+import './baitap1.css';
 
 export default class Baitap1 extends Component {
     render() {
@@ -16,6 +17,6 @@ export default class Baitap1 extends Component {
                 </div>
                 <Footer/>
             </div>
-        );
+        )
     }
 }
